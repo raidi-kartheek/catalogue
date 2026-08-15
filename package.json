@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "product catalogue REST API",
   "main": "server.js",
-  "scripts": {
-    "test": "jest --testPathPattern=test/ --coverage --forceExit"
-  },
+  // "scripts": {
+  //   "test": "jest --testPathPattern=test/ --coverage --forceExit"
+  // },
   "jest": {
     "coverageDirectory": "coverage",
     "coverageReporters": ["lcov", "text", "clover"],
