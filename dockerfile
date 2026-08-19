@@ -17,3 +17,5 @@ RUN apk update && apk upgrade --no-cache && \
 COPY --from=builder /app /app
 USER roboshop
 CMD ["node", "server.js"]
+
+
