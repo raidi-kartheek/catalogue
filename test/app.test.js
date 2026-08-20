@@ -172,5 +172,7 @@ describe('DB error handling', () => {
         const res = await request(app).get('/search/robot');
         expect(res.status).toBe(500);
     });
+
+
 });
 
