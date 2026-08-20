@@ -173,3 +173,4 @@ describe('DB error handling', () => {
         expect(res.status).toBe(500);
     });
 });
+
